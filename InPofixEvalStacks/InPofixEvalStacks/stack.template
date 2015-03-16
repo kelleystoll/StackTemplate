@@ -1,0 +1,97 @@
+// Kelley Stoll
+// Stack Project
+// Template File
+// Exercise: Implement infix, postfix, and evaluation through stack template.
+
+
+template <class ItemType>
+StackType<ItemType>::StackType()
+// Pre: None
+// Post: Initializes stack
+{
+	items = new ItemType[DEFAULT_SIZE];
+	maxStack = DEFAULT_SIZE;
+	top = -1;
+}
+
+template <class ItemType>
+StackType<ItemType>::~StackType()
+// Pre: Stack exists
+// Post: Deletes everything in the stack
+{
+	delete[] items;
+}
+
+template <class ItemType>
+void StackType<ItemType>::Push(ItemType a)
+// Pre: None
+// Post: Puts 'a' on top of stack
+{
+	if (IsFull()) resize(10);
+
+	top++;
+	items[top] = a;
+}
+
+template <class ItemType>
+void StackType<ItemType>::resize(int a)
+// Pre: Stack exists
+// Post: Resizes stack in case too many contents exist
+{
+	ItemType *ptr = new ItemType[maxStack + a];
+
+	for (int i = 0; i <= top; i++){
+		ptr[i] = items[i];
+	}
+
+	delete[] items;
+	items = ptr;
+	maxStack += a;
+}
+
+template <class ItemType>
+// Pre: None
+// Post: Returns item on top
+ItemType StackType<ItemType>::Top() const
+{
+	return items[top];
+}
+
+template <class ItemType>
+void StackType<ItemType>::Pop()
+// Pre: Not empty stack
+// Post: Takes off item on top of stack
+{
+	top--;
+}
+
+template <class ItemType>
+bool StackType<ItemType>::IsFull() const
+// Pre: Stack exists
+// Post: Returns if stack is full or not
+{
+	return ((top + 1) == maxStack);
+}
+
+template <class ItemType>
+bool StackType<ItemType>::IsEmpty() const
+// Pre: Stack exists
+// Post: Returns if stack is empty
+{
+	if (top == -1)
+		return true;
+	else
+		return false;
+}
+
+
+template <class ItemType>
+void StackType<ItemType>::two(StackType<ItemType> &stacky, ItemType& s1, ItemType& s2)
+{
+	s2 = stacky.Top();
+	stacky.Pop();
+	s1 = stacky.Top();
+	stacky.Pop();
+
+
+}

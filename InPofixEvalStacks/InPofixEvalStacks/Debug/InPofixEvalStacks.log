@@ -1,0 +1,25 @@
+﻿Build started 3/16/2015 1:58:40 PM.
+     1>Project "K:\GitHub Submissions\InPofixEvalStacks\InPofixEvalStacks\InPofixEvalStacks.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stacktestdriver.cpp
+         stacktestdriver.cpp
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(64): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(70): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(76): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(82): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(83): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(89): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(126): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>k:\github submissions\inpofixevalstacks\inpofixevalstacks\stacktestdriver.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\GitHub Submissions\InPofixEvalStacks\Debug\InPofixEvalStacks.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\GitHub Submissions\InPofixEvalStacks\Debug\InPofixEvalStacks.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\GitHub Submissions\InPofixEvalStacks\Debug\InPofixEvalStacks.lib" /MACHINE:X86 Debug\stacktestdriver.obj
+         InPofixEvalStacks.vcxproj -> K:\GitHub Submissions\InPofixEvalStacks\Debug\InPofixEvalStacks.exe
+     1>Done Building Project "K:\GitHub Submissions\InPofixEvalStacks\InPofixEvalStacks\InPofixEvalStacks.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23
